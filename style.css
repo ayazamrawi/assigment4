@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  height: 100vh;
+  background-image: url("imgs/shutterstock_277750193.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-right: 120px;
+}
+.nav img {
+  width: 140px;
+}
+.nav-list ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  cursor: pointer;
+}
+li {
+  list-style: none;
+  color: #fff;
+  transition: all 1s;
+}
+li:hover {
+  transform: scale(1.2);
+  text-decoration: underline;
+}
+.info {
+  width: 600px;
+  margin: auto;
+  padding-top: 90px;
+  text-align: center;
+  color: #fff;
+}
+.food-cat {
+  font-size: 34px;
+  font-weight: bold;
+}
+.rest-desc {
+  font-family: "Corinthia", cursive;
+  font-size: 50px;
+}
+.btn {
+  padding: 10px 18px;
+  border: none;
+  cursor: pointer;
+}
+.btn1 {
+  background-color: #dbc08e;
+}
+.btn2 {
+  background-color: #fff;
+}
+.content {
+  background-color: #f2edf4;
+  display: flex;
+  justify-content: space-around;
+  padding-block: 50px;
+}
+.content-text {
+  width: 500px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.content-img img {
+  width: 500px;
+}
